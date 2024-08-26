@@ -1,0 +1,6 @@
+sudo apt install nvidia-cuda-toolkit
+nvcc --version
+nvidia-smi
+cd darknet/
+make
+./darknet detector test cfg/obj.data cfg/yolov4_custom.cfg data/yolov4_custom_best.weights -ext_output data/pose.jpg

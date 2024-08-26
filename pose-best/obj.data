@@ -1,0 +1,5 @@
+classes = 4
+train = /root/alfaplace/ap-dkts/fs/pose-new/train.txt
+valid = /root/alfaplace/ap-dkts/fs/pose-new/test.txt
+names = /root/alfaplace/ap-dkts/fs/pose-new/obj.names
+backup = /root/alfaplace/ap-dkts/fs/pose-new/backup
